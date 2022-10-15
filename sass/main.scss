@@ -1,0 +1,53 @@
+@import "./utils/vars";
+@import "./utils/placeholders";
+@import "./components/body";
+@import "./utils/visually-hidden";
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: auto;
+  }
+
+  .section {
+    margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  @import "./components/logo";
+  @import "./components/page-header";
+  @import "./components/page-hero";
+  @import "./components/modal-window";
+  @import "./components/section-features";
+  @import "./components/section-work";
+  @import "./components/section-about";
+  @import "./components/section-clients";
+  @import "./components/section-portfolio";
+  @import "./components/page-footer";
+
