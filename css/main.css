@@ -20,6 +20,12 @@ body {
   overflow: hidden;
 }
 
+.section {
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -43,12 +49,6 @@ ul {
 img {
   display: block;
   max-width: auto;
-}
-
-.section {
-  margin: 0 auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 li {
