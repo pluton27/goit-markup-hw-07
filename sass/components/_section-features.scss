@@ -1,11 +1,13 @@
 .feature-list {
-    display: flex;
+  @media screen and (min-width: 768px) {
+      display: flex;
     justify-content: center;
     align-items: flex-start;
 
     .item {
         max-width: 270px;
     }
+  }
   }
   
   .feature-list .item:not(:last-child) {

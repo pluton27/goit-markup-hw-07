@@ -1,27 +1,22 @@
 .logo {
-    display: block;
-    margin-right: auto;
-  
     font-family: 'Raleway', sans-serif;
+    font-size: 24px;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
+    line-height: 1.17;
 
-    &--head {
-        padding-top: 22px;
-        padding-bottom: 22px;
+    span {
+        color: $accent-color;
     }
-  }
 
-  .logo--blue {
-    color: $accent-color;
-  }
-  
-  .logo--black {
-    color: $primary-black-color;
-  }
-  
-  .logo--white {
-    color: $primary-bcg-color;
-  }
+    @media screen and (min-width: 1200px) {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.19;
+    }
+}
+
+.logo--white {
+    display: block;
+    margin-bottom: 20px;
+    color: $white-color;
+}
